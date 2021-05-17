@@ -27,6 +27,28 @@
     'welcome to server.js'
 
     ```
+- Endpoint: `/person?name=name provided`
+  - Returns an Object
+
+    ```
+
+    {
+      "name": "name provided"
+    }
+
+    ```
+    
+- Endpoint: `/person`
+  - Throws an error 500
+  - Returns an Object
+
+    ```
+
+    {
+        "status": 500,
+        "message": "something went wrong ",
+        "rout": "/err",
+    }
 
     - Endpoint: `/bad`
   - Returns message

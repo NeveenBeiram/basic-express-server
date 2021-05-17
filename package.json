@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "test": "jest --verbose --coverage --watch"
+     "start": "node index.js",
+    "test": "jest --verbose --coverage"
   },
   "repository": {
     "type": "git",

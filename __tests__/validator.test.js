@@ -19,4 +19,12 @@ describe('Test the query', () => {
     let result = await server2.get(`/person?name=${query}`);
     expect(result.status).toEqual(200);
   });
+
+  
+  it('Bad Method', async() => {
+    let result = await server2.post('/wrong Method it should be get not post');
+    expect(result.status).toEqual(404);
+  });
+  
+
 });
